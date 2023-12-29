@@ -16,7 +16,7 @@ body{
     transition: transform 0.5s; 
 
     &:hover {
-        transform: rotate(45deg);
+        transform: rotate(-30deg) scale(1.2);;
     }
 }
 
@@ -27,7 +27,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 80px;
     
 }
 
@@ -96,7 +96,7 @@ body{
 
 .card-dad {
     margin: 10px;
-    background-color: #5F5F5F;
+    background-color: #212529;
     width: 300px;
     border-radius: 10px;
     overflow: hidden;
@@ -108,8 +108,6 @@ body{
     transform: scale(1.1);
     box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.2); /* Ajusté la sombra al hacer hover */
 }
-
-
 
 
 .card-dad img {
@@ -138,7 +136,7 @@ body{
 .boton {
     width: 150px;
     height: 50px;
-    background-color: #1270FF;
+    background-color: #0d6efd;
     color: white;
     border-radius: 10px;
     border: 0;
@@ -146,5 +144,8 @@ body{
     font-size: 15px;
     text-decoration: none;
     padding: 12px;
+    &:hover{
+        background-color: #0A5FDC;
+    }
 }
 
